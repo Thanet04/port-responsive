@@ -1,0 +1,177 @@
+body{
+    background-color: #48D1CC;
+}
+.navbar-brand{
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.show-name-image{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+}
+
+.left-show{
+    margin: 0 200px 0 100px;
+}
+.left-show p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.right-show img{
+    height: 500px; 
+    border-radius: 10%;
+}
+.title p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.aboutme{
+    margin-top: 50px;
+    background-color: #008B8B;
+    border-radius: 10px;
+}
+.aboutme p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    padding: 10px;
+}
+.show-project{
+    display: flex;
+    padding: 20px;
+    margin:  50px 100px 0 50px;
+    background-color: #008B8B;
+    border-radius: 10px;
+}
+.show-project p{
+    color: white;
+}
+.title-project{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+.content{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.myskill{
+    margin: 0 20px 0 100px;
+}
+.detail-contact{
+    margin: 150px 200px 0 200px;
+    background-color: #008B8B;
+    border-radius: 10px;
+    padding: 20px;
+}
+.title-contact{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+}
+.content-contact{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 1124px){
+    .show-name-image{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .right-show {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .myskill {
+        margin: 0;
+        text-align: center;
+    }
+    .right-show img{    
+        margin-top: 50px;
+        height: 300px;  
+    }
+    .show-project{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    .nav-item{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .myskill{
+        text-align: center;
+        margin: 0;
+    }
+    .show-project{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-show{
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+    .right-show{
+        display: flex;
+        justify-content: center;
+    }
+    .detail-contact{
+        margin: 50px 50px 0 50px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .aboutme p{
+        font-size: 10px;
+    }
+    .title-project{
+        font-size: 12px;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .title-contact{
+        font-size: 12px;
+    }
+    .content-contact{
+        font-size: 10px;
+    }
+    .right-show img{
+        margin: 0 50px 0 80px;
+        height: 200px;
+    }
+    .show-contact svg{
+        height: 10px;
+    }
+    .detail-contact {
+        height: auto;
+        
+    }
+}
